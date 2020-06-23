@@ -59,8 +59,8 @@
 				"columnDefs" : [
 					{ "targets" : 0, "data" : "name" },
 					{ "targets" : 1, "data" : "email" },
-					{ "targets" : 2, "data" : "role" },
-					{ "targets" : 3, "data" : "created_at", "orderData" : 5 },
+					{ "targets" : 2, "data" : "role", "searchable" : false },
+					{ "targets" : 3, "data" : "created_at", "orderData" : 5, "searchable" : false },
 					{ "targets" : 4, "data" : "action", "orderable" : false, "searchable" : false, "className" : "text-right" },
 					{ "targets" : 5, "data" : "timestamp", "visible" : false }
 				]
