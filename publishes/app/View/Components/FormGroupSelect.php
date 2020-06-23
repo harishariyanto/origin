@@ -6,7 +6,6 @@ use Illuminate\View\Component;
 
 class FormGroupSelect extends Component
 {
-	public $type;
 	public $label;
 	public $name;
 	public $id;
@@ -20,9 +19,8 @@ class FormGroupSelect extends Component
      *
      * @return void
      */
-    public function __construct($type = 'text', $label = 'Field Name', $name = '', $id = '', $value = '', $message = '', $options = [])
+    public function __construct($label = 'Field Name', $name = '', $id = '', $value = '', $message = '', $options = [])
     {
-    	$this->type 	= $type;
     	$this->label 	= $label;
         $this->name 	= $name;
 		$this->id 		= $id;
