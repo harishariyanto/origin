@@ -36,7 +36,7 @@ class ProfileController extends Controller
 	public function edit(Request $request)
 	{
 		$breadcrumb = [
-			'Profil' 		=> route('profile.my_profile'),
+			'Profil' 		=> route('profile.show', ['user' => $request->user()]),
 			'Edit Profil' 	=> ''
 		];
 
